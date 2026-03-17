@@ -24,8 +24,25 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+
+# Name: Vikram GS
+# Reg No: 212222060296
+
+n = int(input("Enter limit: "))
+even_list = []
+
+for i in range(1, n+1):
+    if i % 2 == 0:
+        even_list.append(i)
+
+print("Even numbers:", even_list)
 ```
 
 ### OUTPUT
 
+Enter limit: 10
+Even numbers: [2, 4, 6, 8, 10]
+
 ### RESULT
+
+String slicing operations are performed successfully.
