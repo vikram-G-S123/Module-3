@@ -23,8 +23,25 @@ To write a Python function to accept a string, identify a word to be replaced, a
 ### PROGRAM
 
 ```
+# Name: Vikram GS
+# Reg No: 212222060296
+
+string = input("Enter a string: ")
+old = input("Enter word to find: ")
+new = input("Enter replacement word: ")
+
+updated_string = string.replace(old, new)
+
+print("Updated String:", updated_string)
 ```
 
 ### OUTPUT
 
+Enter a string: hello world
+Enter word to find: world
+Enter replacement word: python
+Updated String: hello python
+
 ### RESULT
+
+Thus, all the programs were executed successfully and verified.
