@@ -23,7 +23,25 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+
+# Name: Vikram GS
+# Reg No: 212222060296
+
+import re
+
+text = input("Enter text: ")
+pattern = input("Enter pattern: ")
+
+matches = re.findall(pattern, text)
+
+print("Matches found:", matches)
 ```
 ### OUTPUT
 
+Enter text: cat bat rat mat
+Enter pattern: .at
+Matches found: ['cat', 'bat', 'rat', 'mat']
+
 ### RESULT
+
+String slicing operations are performed successfully.
