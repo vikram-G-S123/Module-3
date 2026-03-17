@@ -22,8 +22,21 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 ### PROGRAM
 
 ```
+# Name: Vikram GS
+# Reg No: 212222060296
+
+n = int(input("Enter limit: "))
+result = tuple(i for i in range(1, n+1) if i % 5 == 0)
+
+print("Tuple:", result)
+
 ```
 
 ### OUTPUT
 
+Enter limit: 20
+Tuple: (5, 10, 15, 20)
+
 ### RESULT
+
+String slicing operations are performed successfully.
