@@ -23,8 +23,24 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+# Name: Vikram GS
+# Reg No: 212222060296
+
+string = input("Enter a string: ")
+
+print("First 5 characters:", string[:5])
+print("Last 5 characters:", string[-5:])
+print("Reversed string:", string[::-1])
+
 ```
 
 ### OUTPUT
 
+Enter a string: pythonprogram
+First 5 characters: pytho
+Last 5 characters: rogram
+Reversed string: margorpmnohtyp
+
 ### RESULT
+
+String slicing operations are performed successfully.
